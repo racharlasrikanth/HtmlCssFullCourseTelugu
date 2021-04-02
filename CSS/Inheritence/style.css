@@ -1,0 +1,18 @@
+body {
+  color: blue;
+  font-family: monospace;
+  line-height: 1.5em;
+}
+
+div {
+  color: red;
+  background: lightblue;
+  border: 2px solid red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: normal;
+}
+
+h3 {
+  color: green;
+}

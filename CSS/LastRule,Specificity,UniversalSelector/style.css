@@ -1,0 +1,25 @@
+/* Last Rule, Specificity, * Universal Selector */
+
+* {
+  padding: 0;
+  margin: 0;
+  color: blue;
+}
+
+.one_class {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+h1 {
+  color: indianred;
+}
+
+#one_id {
+  color: green;
+}
+
+/* ID > Class > Elements(TAGS) */

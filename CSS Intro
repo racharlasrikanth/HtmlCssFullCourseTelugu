@@ -1,0 +1,12 @@
+CSS --> Cascading Style Sheets
+
+--> Responsible for stying the web
+--> HTML - Structure, CSS - Layout, Look
+
+
+--> selector{property:value;font-size:47px;}
+--> h1{color:red;font-size:47px}
+
+--> selector ==> h1, h2, p, input, table, a, classes and id's
+--> property ==> backgorundColor, color, font-size
+--> value ==> red, black, 20px, 30px

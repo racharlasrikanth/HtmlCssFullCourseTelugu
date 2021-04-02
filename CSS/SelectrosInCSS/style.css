@@ -1,0 +1,47 @@
+/* All Selectors
+1. Element Selectors
+2. Group Selectors
+3. Id Selectors
+4. Class Selectors */
+
+/* Class Selectors */
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+  background: lightblue;
+}
+
+#title {
+  font-size: 40px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* Id Selectors
+#title{
+    color: red;
+    background: lightblue;
+} */
+
+/* Group Selectors
+body{
+    color: blue;
+    background: lightblue;
+} */
+
+/* Element Selectors
+h1{
+    color: red;
+    background: blue;
+}
+
+h3{
+    color: black;
+    background: red;
+    font-size: 30px;
+} */
