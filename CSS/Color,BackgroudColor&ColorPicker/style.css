@@ -1,0 +1,105 @@
+/* Visual Studio Color Picker */
+
+#first {
+  color: #bf1af1;
+  background: #f36835da;
+}
+
+#second {
+  color: #00ff00;
+  background: #fff;
+}
+
+#second {
+  color: rgb(0, 0, 255);
+  background: rgb(255, 255, 255);
+}
+
+#three {
+  color: rgb(0, 255, 0);
+  background: rgb(0, 0, 0);
+}
+
+/* HEX Values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+            10 11 12 13 14 15
+            #FF0000 - RED
+            #00FF00 - GREEN */
+
+/* #first {
+  color: #ff0000;
+  background: #000;
+}
+
+#second {
+  color: #00ff00;
+  background: #fff;
+}
+
+body {
+  background: #98e795;
+} */
+
+/* RGBA 0 - 1 opacity/transparency */
+/* #first {
+  color: rgb(0, 0, 255);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#second {
+  color: rgb(30, 220, 54);
+  background: rgba(0, 0, 0, 0.25);
+}
+
+#three {
+  color: rgb(200, 20, 10);
+  background: rgba(0, 0, 0, 0);
+}
+
+#four {
+  color: rgb(10, 230, 68);
+  background: rgba(0, 0, 0, 1);
+}
+
+body {
+  background: rgba(20, 230, 150, 0.3);
+} */
+
+/* rgb (RED, GREEN, BLUE) 0 - 255
+#first {
+  color: rgb(190, 40, 70);
+  background: rgb(22, 45, 100);
+}
+#second {
+  color: rgb(0, 0, 255);
+  background: rgb(255, 255, 255);
+}
+#three {
+  color: rgb(0, 255, 0);
+  background: rgb(0, 0, 0);
+}
+body {
+  background: lightcoral;
+} */
+
+/* color names ==> 140
+#first {
+  color: red;
+  background-color: lightblue;
+}
+
+#second {
+  color: blue;
+  background: lightcoral;
+} */
+
+/* color, background-color and background
+#first {
+  color: red;
+  background-color: lightblue;
+}
+
+#second {
+  color: blue;
+  background: lightcoral;
+} */

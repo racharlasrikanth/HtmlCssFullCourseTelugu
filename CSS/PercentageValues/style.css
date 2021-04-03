@@ -1,0 +1,12 @@
+/* Percentage Values - RELATIVE */
+
+.outer {
+  width: 500px;
+  height: 500px;
+  background: red;
+}
+.inner {
+  width: 50%;
+  height: 50%;
+  background: blue;
+}
