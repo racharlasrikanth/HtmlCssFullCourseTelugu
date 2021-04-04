@@ -1,0 +1,32 @@
+/* 
+    display:none;
+    opacity:0;
+    visibility:hidden;
+*/
+
+h1 {
+  background: blue;
+  color: white;
+  padding: 10px;
+}
+
+.none {
+  display: none;
+}
+
+.visibility {
+  visibility: hidden;
+}
+
+.opacity-1 {
+  opacity: 1;
+  /* color: rgba(200, 30, 41, 0.014); */
+}
+
+.opacity-5 {
+  opacity: 0.5;
+}
+
+.opacity-0 {
+  opacity: 0;
+}

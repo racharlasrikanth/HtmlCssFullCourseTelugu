@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 200px;
+  color: white;
+  height: 200px;
+}
+
+.box-1 {
+  background: orangered;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box-2 {
+  background: black;
+}
+
+.box-3 {
+  background: blue;
+  padding: 30px;
+}
