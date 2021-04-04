@@ -1,0 +1,28 @@
+/* outline
+offset */
+
+.buttons {
+  margin-top: 10rem;
+}
+
+a {
+  margin: 1rem;
+  padding: 0.7rem 1.5rem;
+  background: blue;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.one {
+  border: 10px solid orangered;
+}
+
+.two {
+  /* outline-width: 10px;
+  outline-color: orangered;
+  outline-style: solid; */
+  padding: 3rem;
+  outline: solid orangered 2px;
+  outline-offset: -10px;
+}
