@@ -1,0 +1,41 @@
+/* 
+    z-index - z-axis
+    position:static does not work
+*/
+
+body {
+  background: lightcoral;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.banner {
+  border: solid red 5px;
+  width: 80vw;
+  height: 80vh;
+  padding: 5px;
+  position: relative;
+}
+
+.one {
+  top: 0;
+  left: 0;
+  position: static;
+  z-index: -1000;
+}
+
+.two {
+  top: 10%;
+  left: 10%;
+  z-index: -98;
+}
+
+.three {
+  top: 20%;
+  left: 20%;
+  z-index: -97;
+}

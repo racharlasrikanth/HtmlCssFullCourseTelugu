@@ -1,0 +1,5 @@
+/* 
+    pseudo elements ::before ::after CONTENT not element
+    content:"" ----> Required
+    img - does not work
+*/

@@ -1,0 +1,60 @@
+/* background-attachment */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  /* height: 350px; */
+  min-height: 100vh;
+  color: red;
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.big {
+  background: url("./big-img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.small {
+  background: url("./img/folder-img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* background: url("./small-img.jpeg"); */
+  /* background-repeat: no-repeat;
+  background-position: 0 0;
+  background-position: 100% 100%;
+  background-position: 20% 20%;
+  background-position: 50% 50%; */
+  /* background-position: center;
+  background-position: left;
+  background-position: right;
+  background-position: bottom;
+  background-position: top; */
+  /* background-size: cover; */
+  /* background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  background-repeat: repeat-y;
+  background-repeat: space;
+  background-repeat: round; */
+}
+
+.folder {
+  /* background: url("./img/folder-img.jpeg"); */
+  background: url("./big-img.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
