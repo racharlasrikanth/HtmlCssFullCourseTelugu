@@ -1,0 +1,35 @@
+/* Descendant and Child Combinators */
+/* ::first-line ::first-letter */
+
+p::first-line {
+  font-weight: bold;
+  color: red;
+}
+
+p {
+  text-indent: 100px;
+}
+
+p::first-letter {
+  font-size: 3rem;
+}
+
+/* body {
+  background: black;
+}
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: yellow;
+}
+
+.header > h1 {
+  color: blanchedalmond;
+} */

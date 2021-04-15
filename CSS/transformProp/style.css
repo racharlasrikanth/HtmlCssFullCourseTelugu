@@ -1,0 +1,35 @@
+/* 
+    transform: translate(), scale(), rotate(), skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: orangered;
+  transform: skewX(20deg);
+  /* transform: rotateZ(70deg); */
+  /* transform: rotate(45deg); */
+  /* transform: scaleX(0.7); */
+  /* transform: translateX(20px); */
+}
+
+.two {
+  background: blue;
+  transform: skewY(20deg);
+  /* transform: rotateX(360deg); */
+  /* transform: scaleY(0.5); */
+  /* transform: translateY(-50px); */
+}
+
+.three {
+  background: green;
+  transform: skew(20deg, -20deg);
+  /* transform: rotateY(360deg); */
+  /* transform: scale(0.5, 0.5); */
+  /* transform: translateX(75px); */
+  /* transform: translate(50px, 100px); */
+}

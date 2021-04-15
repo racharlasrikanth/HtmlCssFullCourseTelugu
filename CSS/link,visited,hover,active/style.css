@@ -1,0 +1,17 @@
+/* :link :visited :hover :active */
+
+a:link {
+  color: orangered;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: peru;
+}
+
+a:active {
+  color: green;
+}

@@ -1,0 +1,37 @@
+/* 
+  transform: translate(), scale(), rotate(), skew()
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background: orangered;
+  transform: translateX(200%);
+  /* transform: scaleX(0.5); */
+  /* transform: rotateZ(45deg); */
+  /* transform: rotate(45deg); */
+  /* transform: skewX(20deg); */
+}
+
+.two {
+  background: blue;
+  transform: translateY(-30px);
+  /* transform: scaleY(0.7); */
+  /* transform: rotateX(50deg); */
+  /* transform: rotateX(120deg); */
+  /* transform: skewY(25deg); */
+}
+
+.three {
+  background: green;
+  /* transform: translate(20px, 40px); */
+  transform: translate(75px);
+  /* transform: scale(0.5, 0.5); */
+  /* transform: scale(0.7); */
+  /* transform: rotateY(70deg); */
+  /* transform: skew(20deg); ONly X - Direction */
+}
