@@ -1,0 +1,48 @@
+/* 
+  Transition 0 = 100%
+  ANIMATION 0 1% 2% 3% ........ 100%
+*/
+
+div {
+  width: 200px;
+  height: 100px;
+  color: white;
+  margin: 15px 0px;
+}
+
+.transition {
+  background: blue;
+  transition: all 1s linear;
+}
+
+.transition:hover {
+  transform: translateX(200px);
+  background: orangered;
+}
+
+.animation {
+  background: red;
+  /* animation-name: movingAnimation;
+  animation-duration: 20s;
+  animation-iteration-count: 2; */
+  /* animation: animation_name animationi-duration animation-iteration-count */
+  animation: movingAnimation 7s infinite;
+}
+
+@keyframes movingAnimation {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(200px);
+    background: black;
+  }
+  75% {
+    transform: translateX(-150px);
+    background: yellowgreen;
+  }
+  100% {
+    transform: translateX(20px);
+    background: lightcoral;
+  }
+}
