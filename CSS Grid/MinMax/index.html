@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Tutorial</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    /* MinMax function */
+    .containier {
+      height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr minmax(250px, 1fr) 1fr;
+    }
+  </style>
+  <body>
+    <div class="containier">
+      <div class="cell cell-1">Cell 1</div>
+      <div class="cell cell-2">Cell 2</div>
+      <div class="cell cell-3">Cell 3</div>
+      <div class="cell cell-4">Cell 4</div>
+      <div class="cell cell-5">Cell 5</div>
+      <div class="cell cell-6">Cell 6</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid Tutorial</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <style>
+    /* auto-fill keeps creating, auto-fit only fits */
+    .containier {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+    .containier1 {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+  </style>
+  <body>
+    <h1>Auto fit</h1>
+    <div class="containier">
+      <div class="cell cell-1">Cell 1</div>
+      <div class="cell cell-2">Cell 2</div>
+      <div class="cell cell-3">Cell 3</div>
+      <div class="cell cell-4">Cell 4</div>
+      <div class="cell cell-5">Cell 5</div>
+      <div class="cell cell-6">Cell 6</div>
+    </div>
+    <h1>Auto Fill</h1>
+    <div class="containier1">
+      <div class="cell cell-1">Cell 1</div>
+      <div class="cell cell-2">Cell 2</div>
+      <div class="cell cell-3">Cell 3</div>
+      <div class="cell cell-4">Cell 4</div>
+      <div class="cell cell-5">Cell 5</div>
+      <div class="cell cell-6">Cell 6</div>
+    </div>
+  </body>
+</html>
